@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css>
+  <title>Circle</title>
+</head>
+<body>
+  <div id='Circle'>
+    
+    
+  </div>
+  <input id = "slider" type = "range" min= "20" max = "500" step = "2" value = "50"oninput ='resize(this.value)'>
+  <script>
+    function resize(size){
+  let shape = document.getElementById("Circle");
+  shape.style.width = size + 'px';
+      shape.style.height = size + 'px';
+}
+  </script>
+  
+</body>
+</html>
